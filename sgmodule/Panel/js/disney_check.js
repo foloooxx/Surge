@@ -43,7 +43,7 @@ const STATUS_ERROR = -2
 
 const DEFAULT_OPTIONS = {
   title: 'Disney+ 解锁检测',
-  availableContent: '支持 Disney ➟ #REGION_FLAG# #REGION_CODE#',
+  availableContent: '解锁 Disney ➟ #REGION_FLAG# #REGION_CODE#',
   availableIcon: undefined,
   availableIconColor: undefined,
   availableStyle: 'good',
