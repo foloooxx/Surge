@@ -94,7 +94,7 @@ function getDlerInfomation(email, passwd) {
 function dlerCheckin(email, passwd, multiple = 1) {
   return new Promise((resolve, reject) => {
     let options = {
-      url: `https://dler.cloud/api/v1/checkin`,
+      url: `https://m.ok6.icu/m/home/checkin`,
       headers: {
         "Content-Type": "application/json"
       },
