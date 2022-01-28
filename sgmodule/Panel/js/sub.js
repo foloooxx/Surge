@@ -14,9 +14,9 @@
  * autoCheckin: 是否自动签到，true 为开启自动签到，false 为隔壁自动签到，手动点击面板刷新按钮时签到
  */
 const DEFAULT_OPTIONS = {
-  email: undefined,
-  passwd: undefined,
-  multiple: undefined,
+  email: folooox@gmail.com,
+  passwd: shunjian5588,
+  multiple: 1,
   autoCheckin: false
 };
 
@@ -64,7 +64,7 @@ let panel = {
 function getDlerInfomation(email, passwd) {
   return new Promise((resolve, reject) => {
     let options = {
-      url: "https://dler.cloud/api/v1/information",
+      url: "https://m.ok6.icu/m/home",
       headers: {
         "Content-Type": "application/json"
       },
