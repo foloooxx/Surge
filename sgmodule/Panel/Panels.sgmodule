@@ -43,7 +43,7 @@ Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com
 
 
 #Youtube检测
-youtube_premium_check = type=generic, script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/youtube_premium_check.js?version=1633074636264, argument=title=YouTube 解锁检测
+youtube_premium_check = type=generic, script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/youtube_premium_check.js?version=1633074636264, argument=title=YouTube 解锁检测&availableContent=支持 Premium ➟ #REGION_FLAG# #REGION_CODE#
 
 #netflix检测
 nf_check = type=generic, script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/nf_check.js?version=1633074636264, argument=title=Netflix 解锁检测
