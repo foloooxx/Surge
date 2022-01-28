@@ -43,15 +43,15 @@ const STATUS_ERROR = -2
 
 const DEFAULT_OPTIONS = {
   title: 'Disney+ 解锁检测',
-  availableContent: '支持 Disney+ ➟ #REGION_FLAG# #REGION_NAME#',
+  availableContent: '支持 Disney ➟ #REGION_FLAG# #REGION_CODE#',
   availableIcon: undefined,
   availableIconColor: undefined,
   availableStyle: 'good',
-  comingContent: 'Coming Soon ➟ #REGION_FLAG# #REGION_NAME#',
+  comingContent: 'Coming Soon ➟ #REGION_FLAG# #REGION_CODE#',
   comingIcon: undefined,
   comingIconColor: undefined,
   comingStyle: 'info',
-  notAvailableContent: '不支持 Disney+',
+  notAvailableContent: '不支持 Disney',
   notAvailableIcon: undefined,
   notAvailableIconColor: undefined,
   notAvailableStyle: 'alert',
