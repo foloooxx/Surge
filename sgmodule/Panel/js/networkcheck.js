@@ -1,8 +1,4 @@
-/*
- * Surge 網路詳情面板
- * @Nebulosa-Cat
- * 詳情請見 README
- */
+
 const { wifi, v4, v6 } = $network;
 
 let cellularInfo = '';
