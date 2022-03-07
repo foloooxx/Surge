@@ -20,11 +20,6 @@ youtube_premium_check = script-name=youtube_premium_check, title="YouTube Premiu
 #Netflix检测
 nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=1
 
-#disney检测
-disney_check = script-name=disney_check,title=Disney+ 解锁检测,style=alert,content=请刷新面板,update-interval=1800
-
-#策略组面板 可重复配置 注意修改相应字段
-groupPanel= script-name=groupPanel,update-interval=5
 
 [Script]
 #附带重载配置,Surge Pro标题,可显示启动时间,点击刷新为重载配置
@@ -39,17 +34,10 @@ TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubuserc
 
 #机场信息
 #必须修改的字段:你encode后的机场订阅链接
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/sub_info.js ,script-update-interval=0,argument=url=https%3A%2F%2Fsubscribe.s7p7.top%2Flink%2Fclv9sw0AB8LpapoJ%3Fsurge%3D3&reset_day=3&title=Faster Frog&icon=opticaldisc&color=#5AC8FA
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/sub_info.js ,script-update-interval=0,argument=url=https%3A%2F%2Fsubscribe.s7p7.top%2Flink%2Fh2JTPNM3dBZnc4yY%3Fsurge%3D3&reset_day=3&title=Faster Frog&icon=opticaldisc&color=#5AC8FA
 
 #Youtube检测
 youtube_premium_check = type=generic, script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/youtube_premium_check.js?version=1633074636264, argument=title=YouTube 解锁检测&availableContent=解锁 Premium ➟ #REGION_FLAG# #REGION_CODE#
 
 #netflix检测
 nf_check = type=generic, script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/nf_check.js?version=1633074636264, argument=title=Netflix 解锁检测&fullContent=解锁 Netflix ➟ #REGION_FLAG# #REGION_CODE#&onlyOriginalContent=仅支持自制剧 ➟ #REGION_FLAG# #REGION_CODE#
-
-#disney检测
-disney_check = type=generic,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/disney_check.js,argument=title=Disney 解锁检测&availableContent=解锁 Disney ➟ #REGION_FLAG# #REGION_CODE#
-
-#策略组面板 可重复配置 注意修改相应字段
-#必须更改的字段：group 填写需要显示的策略组名称
-groupPanel = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/groupPanel.js ,argument=icon=network&color=#86abee&group=Auto
