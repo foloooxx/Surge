@@ -34,7 +34,7 @@ TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubuserc
 
 #机场信息
 #必须修改的字段:你encode后的机场订阅链接
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/sub_info.js ,script-update-interval=0,argument=url=https%3A%2F%2Fsubscribe.s7p7.top%2Flink%2Fh2JTPNM3dBZnc4yY%3Fsurge%3D3&reset_day=3&title=Faster Frog&icon=opticaldisc&color=#5AC8FA
+Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/sub_info.js ,script-update-interval=0,argument=url=https%3A%2F%2Fsubscribe.s7p7.top%2Flink%2Fh2JTPNM3dBZnc4yY%3Fsurge%3D3&title=Faster Frog&icon=opticaldisc&color=#5AC8FA
 
 #Youtube检测
 youtube_premium_check = type=generic, script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/youtube_premium_check.js?version=1633074636264, argument=title=YouTube 解锁检测&availableContent=解锁 Premium ➟ #REGION_FLAG# #REGION_CODE#
