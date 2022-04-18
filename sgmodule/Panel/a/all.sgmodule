@@ -1,0 +1,10 @@
+#!name=Streaming_Check
+#!desc=流媒体检测
+
+[Panel]
+all = script-name=all, title="Streaming Check", content="请刷新", update-interval=1
+
+
+[Script]
+
+all = type = generic,script-path= https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/流媒体/d.js , https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/流媒体/nf.js , https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/流媒体/yt.js
