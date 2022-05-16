@@ -1,0 +1,8 @@
+#! name = Netflix解锁检测
+#! desc = 检测是否解锁Netflix非自制剧
+
+[Panel]
+netflix = script-name=netflix,title="Netflix解锁检测", content="请刷新", update-interval=0
+
+[Script]
+netflix = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/Panel/netflix.js
