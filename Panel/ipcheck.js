@@ -10,7 +10,7 @@ $httpClient.get(url, function(error, response, data){
   body = {
     title: "𝐏𝐫𝐨𝐱𝐲 𝐈𝐧𝐟𝐨",
     content: `IP信息：${ip}\n运营商：${isp}\n所在地：${emoji}${country} - ${city}`,
-    icon: "mappin.circle"
+    icon: "mappin.circle",
     color: "#0ca682"
   }
   $done(body);
