@@ -10,7 +10,8 @@ $httpClient.get(url, function(error, response, data){
   body = {
     title: "节点详情",
     content: `IP信息：${ip}\n运营商：${isp}\n所在地：${emoji}${country} - ${city}`,
-    icon: "globe.asia.australia.fill"
+    icon: "mappin.circle"
+    color: "#0ca682"
   }
   $done(body);
 });
