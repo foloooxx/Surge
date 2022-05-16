@@ -1,0 +1,9 @@
+#!name = 节点信息检测
+#!desc = 包含ip,isp,location 基于ip-api.com
+
+[Panel]
+ipinfo = script-name=ipinfo, title="节点信息", content="请刷新", style=info, update-interval=0
+
+[Script]
+ipinfo = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/Panel/ipinfo.js
+
