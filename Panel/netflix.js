@@ -31,7 +31,7 @@ const FILM_ID = 81215567
 const AREA_TEST_FILM_ID = 80018499
 const DEFAULT_OPTIONS = {
   title: '𝐍𝐄𝐓𝐅𝐋𝐈𝐗',
-  fullContent: '解锁  ➟ #REGION_FLAG# #REGION_CODE#',
+  fullContent: 'UNLOCK  ➟ #REGION_FLAG# #REGION_CODE#',
   fullIcon: 'bonjour',
   fullIconColor: '#FB8C00',
   fullStyle: '',
