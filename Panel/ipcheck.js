@@ -8,8 +8,8 @@ $httpClient.get(url, function(error, response, data){
     let isp = jsonData.isp
     let ip = jsonData.query
   body = {
-    title: "𝐏𝐫𝐨𝐱𝐲 𝐈𝐧𝐟𝐨",
-    content: `IP信息：${ip}\n运营商：${isp}\n所在地：${emoji}${country} - ${city}`,
+    title: "𝐏𝐑𝐎𝐗𝐘 𝐈𝐍𝐅𝐎",
+    content: `IP：${ip}\nISP：${isp}\nLOC：${emoji}${country} - ${city}`,
     icon: "mappin.circle",
     "icon-color": "#016b32"
   }
