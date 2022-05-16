@@ -26,18 +26,18 @@ const BASE_URL = 'https://www.youtube.com/premium'
 
 const DEFAULT_OPTIONS = {
   title: '𝐘𝐎𝐔𝐓𝐔𝐁𝐄',
-  availableContent: 'Unlock ➟ #REGION_FLAG# #REGION_CODE#',
+  availableContent: 'unlock ➟ #REGION_FLAG# #REGION_CODE#',
   availableIcon: 'play.rectangle.on.rectangle.circle',
   availableIconColor: '#5E86A8',
   availableStyle: '',
   notAvailableContent: '不支持 YouTube Premium',
-  notAvailableIcon: '',
-  notAvailableIconColor: '',
-  notAvailableStyle: 'alert',
+  notAvailableIcon: 'play.rectangle.on.rectangle.circle.fill',
+  notAvailableIconColor: '#5E86A8',
+  notAvailableStyle: '',
   errorContent: '检测失败，请重试',
-  errorIcon: '',
-  errorIconColor: '',
-  errorStyle: 'error',
+  errorIcon: 'play.rectangle.on.rectangle.circle.fill',
+  errorIconColor: '#5E86A8',
+  errorStyle: '',
 }
 
 let options = getOptions()
