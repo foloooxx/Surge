@@ -25,8 +25,8 @@
 const BASE_URL = 'https://www.youtube.com/premium'
 
 const DEFAULT_OPTIONS = {
-  title: '𝐘𝐨𝐮𝐓𝐮𝐛𝐞',
-  availableContent: '解锁 ➟ #REGION_FLAG# #REGION_CODE#',
+  title: '𝐘𝐎𝐔𝐓𝐔𝐁𝐄',
+  availableContent: 'UNLOCK ➟ #REGION_FLAG# #REGION_CODE#',
   availableIcon: 'atom',
   availableIconColor: '#009688',
   availableStyle: '',
