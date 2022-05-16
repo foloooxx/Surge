@@ -16,10 +16,10 @@ if ($trigger == "button") {
 	$notification.post("配置重载","配置重载成功","")
 };
 $done({
-    title:"Surge  已运行"+startTime,
+    title:"𝐒𝐔𝐑𝐆𝐄®  "+startTime,
     content:"Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
-    icon: icon_s?"checkmark.seal":"exclamationmark.triangle",
-   "icon-color":icon_s?"#16A951":"#FF7500"
+    icon: icon_s?"power.circle":"power.circle",
+   "icon-color":icon_s?"#002fa7":"#a70048"
 });
 })();
 function icon_status(status){
@@ -43,12 +43,12 @@ let seconds=Math.round(leave3/1000)
 
 if(days==0){
   if(hours==0){
-    if(minutes==0)return(`${seconds}秒`);
-      return(`${minutes}分${seconds}秒`)
+    if(minutes==0)return(`${seconds}S`);
+      return(`${minutes}M${seconds}S`)
     }
-    return(`${hours}时${minutes}分${seconds}秒`)
+    return(`${hours}H${minutes}M${seconds}S`)
   }else {
-        return(`${days}天${hours}时${minutes}分`)
+        return(`${days}D${hours}H${minutes}M`)
 	}
 }
 function httpAPI(path = "", method = "POST", body = null) {
