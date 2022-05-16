@@ -5,10 +5,10 @@
 functionstatus = script-name=functionstatus, title="Surge", content="请刷新", update-interval=0
 
 # 节点信息
-ipinfo = script-name=ipinfo, title="节点信息", content="请刷新", style=info, update-interval=3600
+ipinfo = script-name=ipinfo, title="节点信息", content="请刷新", style=info, update-interval=0
 
 # 网络状态
-netinfo = script-name=netinfo,title="网络状态",content="请刷新",style=info,update-interval=3600
+netinfo = script-name=netinfo,title="网络状态",content="请刷新",style=info,update-interval=0
 
 # 网飞检测
 netflix = script-name=netflix,title="Netflix解锁检测", content="请刷新", update-interval=0
