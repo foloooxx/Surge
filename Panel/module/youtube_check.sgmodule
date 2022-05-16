@@ -1,0 +1,8 @@
+#! name = YouTube Premium检测
+#！desc = 检测是否正常使用YouTube Premium相关功能
+
+[Panel]
+youtube = script-name=youtube,title="YouTube解锁检测", content="请刷新", update-interval=0
+
+[Script]
+youtube = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/Panel/youtube.js
