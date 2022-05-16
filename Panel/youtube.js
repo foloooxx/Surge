@@ -27,8 +27,8 @@ const BASE_URL = 'https://www.youtube.com/premium'
 const DEFAULT_OPTIONS = {
   title: '𝐘𝐎𝐔𝐓𝐔𝐁𝐄',
   availableContent: 'Unlock ➟ #REGION_FLAG# #REGION_CODE#',
-  availableIcon: 'atom',
-  availableIconColor: '#009688',
+  availableIcon: 'play.rectangle.on.rectangle.circle',
+  availableIconColor: '#5E86A8',
   availableStyle: '',
   notAvailableContent: '不支持 YouTube Premium',
   notAvailableIcon: '',
