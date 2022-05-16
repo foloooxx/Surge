@@ -32,8 +32,8 @@ const AREA_TEST_FILM_ID = 80018499
 const DEFAULT_OPTIONS = {
   title: '𝐍𝐄𝐓𝐅𝐋𝐈𝐗',
   fullContent: 'Unlock  ➟ #REGION_FLAG# #REGION_CODE#',
-  fullIcon: 'bonjour',
-  fullIconColor: '#FB8C00',
+  fullIcon: 'film.circle',
+  fullIconColor: '#B88CB2',
   fullStyle: '',
   onlyOriginalContent: '仅支持自制剧 ➟ #REGION_FLAG# #REGION_CODE#',
   onlyOriginalIcon: '',
