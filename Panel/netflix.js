@@ -31,7 +31,7 @@ const FILM_ID = 81215567
 const AREA_TEST_FILM_ID = 80018499
 const DEFAULT_OPTIONS = {
   title: 'Netflix 解锁检测',
-  fullContent: '解锁 Netflix ➟ #REGION_FLAG# #REGION_CODE#',
+  fullContent: '解锁  ➟ #REGION_FLAG# #REGION_CODE#',
   fullIcon: '',
   fullIconColor: '',
   fullStyle: 'good',
