@@ -1,0 +1,8 @@
+#!name = 网络信息检测
+#!desc = 包含本机ip，路由ip，外部ip 基于my-ip.io
+
+[Panel]
+netinfo = script-name=netinfo,title="网络状态",content="请刷新",style=info,update-interval=0
+
+[Script]
+netinfo = script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/Panel/netinfo.js,type=generic
