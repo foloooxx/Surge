@@ -16,8 +16,9 @@ if ($trigger == "button") {
 	$notification.post("配置重载","配置重载成功","")
 };
 $done({
-    title:"𝐒𝐔𝐑𝐆𝐄®"+startTime,
-    content:`已运行: ${startTime}\n` + "Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
+//title:"𝐒𝐔𝐑𝐆𝐄®:  "+startTime
+    title:"𝐒𝐔𝐑𝐆𝐄®",
+    content:`Running:  ${startTime}\n` + "Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
     icon: icon_s?"gear.circle":"gear.circle",
    "icon-color":icon_s?"#1d2ea3":"#dc143c"
 });
