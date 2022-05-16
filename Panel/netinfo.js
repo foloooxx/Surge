@@ -30,7 +30,7 @@ const v4IP = v4.primaryAddress;
             + (wifi.ssid ? `Router：${router}\n` : "")
             + `External：${externalIP}`,
         icon: wifi.ssid ? "flame" : "drop"
-        "icon-color": wifi.ssid ? "#E53935" : "#039BE5"
+        "icon-color": "#E53935" : "#039BE5"
     };
     $.done(body);
 })();
