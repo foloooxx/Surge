@@ -20,7 +20,7 @@ $done({
     title:"𝐒𝐔𝐑𝐆𝐄®",
     content:`Running:  ${startTime}\n` + "Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
     icon: icon_s?"bonjour":"point.3.filled.connected.trianglepath.dotted",
-   "icon-color":icon_s?"#F48FB1":"#FFCC80"
+   "icon-color":icon_s?"#F48FB1":"#FFB74D"
 });
 })();
 function icon_status(status){
