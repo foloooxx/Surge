@@ -1,43 +1,28 @@
-#!name=Panels
-#!desc=信息面板
-
 [Panel]
-#Surge Pro标题,可显示启动时间,点击刷新为重载配置
-SurgePro = script-name=SurgePro,update-interval=1
-
+functionstatus = script-name=functionstatus, title="Surge", content="请刷新", update-interval=60
 #网络详情
 NetworkCheck=title="",content="",style=info,script-name=networkcheck.js,update-interval=1
-
-#流量统计
-TrafficStatistics = script-name=TrafficStatistics,update-interval=1
-
-#机场信息
-Sub_info = script-name=Sub_info,update-interval = 600
-
+#节点检测
+ipcheck = script-name=ipcheck, title="节点详情", content="请刷新", style=info, update-interval=1
 #Youtube检测
 youtube_premium_check = script-name=youtube_premium_check, title="YouTube Premium 解锁检测", update-interval=1
-
 #Netflix检测
 nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新", update-interval=1
 
-
 [Script]
-#附带重载配置,Surge Pro标题,可显示启动时间,点击刷新为重载配置
-SurgePro = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/surgepro.js ,argument=icon=crown.fill&color=#f6c970
 
+functionstatus = type=generic,script-path=hhttps://raw.githubusercontent.com/foloooxx/Surge/main/Panel/functionstatus.js
 #网络詳情 标题显示为根节点名
 #应当修改的字段 group 代理策略组名称
-networkcheck.js=script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/networkcheck.js,type=generic
-
-#流量统计 点击以切换网络界面
-TrafficStatistics = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/trafficstatistics.js ,argument=icon=arrow.up.arrow.down.circle&color=#5d84f8
-
-#机场信息
-#必须修改的字段:你encode后的机场订阅链接
-Sub_info = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/sub_info.js ,script-update-interval=0,argument=url=https%3A%2F%2Fsubscribe.s7p7.top%2Flink%2Fh2JTPNM3dBZnc4yY%3Fsurge%3D3&title=Faster Frog&icon=opticaldisc&color=#5AC8FA
-
+NetworkCheck = type=generic,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/Panel/network.js
+#节点检测
+ipcheck =type=generic,timeout=3,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/Panel/ipcheck.js
 #Youtube检测
-youtube_premium_check = type=generic, script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/youtube_premium_check.js?version=1633074636264, argument=title=YouTube 解锁检测&availableContent=解锁 Premium ➟ #REGION_FLAG# #REGION_CODE#
-
+youtube_premium_check = type=generic,
+script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/Panel/youtube.js,
+argument=title=YouTube 解锁检测&availableContent=解锁 Premium ➟ #REGION_FLAG# #REGION_CODE#
 #netflix检测
-nf_check = type=generic, script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/sgmodule/Panel/js/nf_check.js?version=1633074636264, argument=title=Netflix 解锁检测&fullContent=解锁 Netflix ➟ #REGION_FLAG# #REGION_CODE#&onlyOriginalContent=仅支持自制剧 ➟ #REGION_FLAG# #REGION_CODE#
+nf_check = type=generic,
+script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/Panel/netflix.js,
+argument=title=Netflix 解锁检测&fullContent=解锁 Netflix ➟ #REGION_FLAG# #REGION_CODE#&onlyOriginalContent=仅支持自制剧 ➟
+#REGION_FLAG# #REGION_CODE#
