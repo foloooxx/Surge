@@ -10,8 +10,8 @@ $httpClient.get(url, function(error, response, data){
   body = {
     title: "𝐏𝐑𝐎𝐗𝐘 𝐈𝐍𝐅𝐎",
     content: `IP：${ip}\nISP：${isp}\nLOC：${emoji}${country} - ${city}`,
-    icon: "mappin.circle",
-    "icon-color": "#016b32"
+    icon: "gyroscope",
+    "icon-color": "#7986CB"
   }
   $done(body);
 });
