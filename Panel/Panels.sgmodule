@@ -1,5 +1,5 @@
 #!name = Panel
-#!decs = 面板
+#!desc = 面板
 [Panel]
 # 配置重载
 functionstatus = script-name=functionstatus, title="Surge", content="请刷新", update-interval=0
