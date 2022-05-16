@@ -1,5 +1,5 @@
 #! name = Panel
-#! desc = all in one
+#! desc = 面包合集，包含所有现有panel
 
 [Panel]
 # 配置重载
