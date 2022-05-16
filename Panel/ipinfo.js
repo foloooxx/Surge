@@ -11,7 +11,7 @@ $httpClient.get(url, function(error, response, data){
     title: "𝐏𝐑𝐎𝐗𝐘 𝐈𝐍𝐅𝐎",
     content: `IP：${ip}\nISP：${isp}\nLOC：${emoji}${country} - ${city}`,
     icon: "map.circle",
-    "icon-color": "#7986CB"
+    "icon-color": "#CA5C6E"
   }
   $done(body);
 });
