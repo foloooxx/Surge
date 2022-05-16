@@ -18,7 +18,7 @@ if ($trigger == "button") {
 $done({
     title:"𝐒𝐔𝐑𝐆𝐄®  "+startTime,
     content:"Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
-    icon: icon_s?"power.circle":"power.circle",
+    icon: icon_s?"gear.circle":"gear.circle.fill",
    "icon-color":icon_s?"#002fa7":"#a70048"
 });
 })();
