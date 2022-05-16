@@ -19,8 +19,8 @@ $done({
 //title:"𝐒𝐔𝐑𝐆𝐄®:  "+startTime
     title:"𝐒𝐔𝐑𝐆𝐄®",
     content:`Running:  ${startTime}\n` + "Mitm:"+icon_status(mitm_status.enabled)+"  Rewrite:"+icon_status(rewrite_status.enabled)+"  Scripting:"+icon_status(scripting_status.enabled),
-    icon: icon_s?"gear.circle":"gear.circle.fill",
-   "icon-color":icon_s?"#CA8D4E":"#FBC02D"
+    icon: icon_s?"waveform.circle":"waveform.circle.fill",
+   "icon-color":icon_s?"#CA8D4E":"#CA8D4E"
 });
 })();
 function icon_status(status){
