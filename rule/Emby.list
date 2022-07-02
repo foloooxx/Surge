@@ -1,0 +1,5 @@
+# Emby
+DOMAIN-SUFFIX,jmsooo.com
+DOMAIN-SUFFIX,emby.wtf
+DOMAIN,emby.riches.cloud
+IP-CIDR,198.204.247.154/32,no-resolve
