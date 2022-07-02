@@ -32,3 +32,8 @@ netflix = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/f
 
 # 油管检测
 youtube = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/foloooxx/Surge/main/Panel/youtube.js
+
+
+[Rule]
+DOMAIN-SUFFIX,my-ip.io,DIRECT
+DOMAIN-SUFFIX,ip-api.com,Proxy
